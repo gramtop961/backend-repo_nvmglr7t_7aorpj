@@ -1,7 +1,18 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [147] using StatReload
-INFO:     Started server process [149]
+INFO:     Started reloader process [220] using StatReload
+INFO:     Started server process [222]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:49222 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:51736 - "GET /api/solana/recent-transactions?limit=10 HTTP/1.1" 502 Bad Gateway
+INFO:     172.20.0.1:51754 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:51746 - "GET /api/solana/recent-transactions?limit=10 HTTP/1.1" 502 Bad Gateway
+INFO:     172.20.0.1:51736 - "GET /api/solana/stats HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51746 - "GET /api/solana/stats HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51746 - "GET /api/solana/recent-transactions?limit=10 HTTP/1.1" 502 Bad Gateway
+INFO:     172.20.0.1:51746 - "GET /api/solana/recent-transactions?limit=10 HTTP/1.1" 502 Bad Gateway
+INFO:     172.20.0.1:51762 - "GET /api/solana/recent-transactions?limit=10 HTTP/1.1" 502 Bad Gateway
+INFO:     172.20.0.1:51746 - "GET /api/solana/stats HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51746 - "GET /api/solana/recent-transactions?limit=10 HTTP/1.1" 502 Bad Gateway
+INFO:     172.20.0.1:51746 - "GET /api/solana/stats HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49658 - "GET /api/solana/recent-transactions?limit=10 HTTP/1.1" 502 Bad Gateway
